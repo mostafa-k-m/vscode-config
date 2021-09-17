@@ -1,0 +1,204 @@
+{
+  "editor.suggestSelection": "first",
+  "python.languageServer": "Pylance",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code Retina', 'Fira Code iScript', 'Victor Mono', Consolas, 'Courier New', monospace",
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "selection",
+  "editor.snippetSuggestions": "top",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.tabSizing": "shrink",
+  "editor.minimap.renderCharacters": false,
+  "jupyter.sendSelectionToInteractiveWindow": true,
+  "jupyter.interactiveWindowMode": "perFile",
+  "terminal.integrated.fontFamily": "MesloLGS NF Regular",
+  "git.enableSmartCommit": true,
+  "terminal.integrated.fontSize": 12,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#d9d9d9",
+    "terminal.ansiBlack": "#1a1a1a",
+    "terminal.ansiBrightBlack": "#625e4c",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#58d1eb",
+    "terminal.ansiBrightGreen": "#98e024",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#f4005f",
+    "terminal.ansiBrightWhite": "#f6f6ef",
+    "terminal.ansiBrightYellow": "#e0d561",
+    "terminal.ansiPurple": "#f4005f",
+    "terminal.ansiBrightPurple": "#f4005f",
+    "terminal.ansiCyan": "#58d1eb",
+    "terminal.ansiGreen": "#98e024",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#f4005f",
+    "terminal.ansiWhite": "#c4c5b5",
+    "terminal.ansiYellow": "#fd971f",
+    "terminal.ansiBlue": "#9d65ff"
+  },
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  "r.rterm.linux": "/home/mostafakm/.pyenv/shims/radian",
+  "debug.onTaskErrors": "debugAnyway",
+  "[css]": {
+    "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+  "r.bracketedPaste": true,
+  "r.rpath.linux": "/usr/bin/R",
+  "files.associations": {
+    "*.rmd": "markdown"
+  },
+  "r.rpath.windows": "\\\\wsl.localhost\\Ubuntu\\usr\\local\\bin\\R",
+  "r.rterm.windows": "\\\\wsl.localhost\\Ubuntu\\home\\mostafakm\\.pyenv\\shims\\radian",
+  "r.rterm.option": [
+    "--r-binary=/usr/local/bin/R"
+  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "python.terminal.activateEnvironment": false,
+  "r.lsp.debug": true,
+  "r.lsp.diagnostics": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "entity.name.type.class", //class names,
+          "storage.type",
+          "keyword", //import, export, return…
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+        ],
+        "settings": {
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": [
+          "entity.name.function",
+          "support.function",
+          "keyword.operator"
+        ],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "comment",
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json",
+          "support.function.builtin.python"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "jupyter.askForKernelRestart": false,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "gitlens.hovers.currentLine.over": "line",
+  "git.autofetch": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "pylance.insidersChannel": "daily",
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "bookmarks.saveBookmarksInProject": true,
+  "bookmarks.sideBar.expanded": true,
+  "window.menuBarVisibility": "default",
+  "editor.renderControlCharacters": true,
+  "editor.fontWeight": "normal",
+  "markdown.preview.lineHeight": 1.4,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.largeFileOptimizations": false,
+  "jupyter.exportWithOutputEnabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "scm.diffDecorationsGutterWidth": 1,
+  "code-runner.terminalRoot": "/home/moatafakm/.pyenv/shims/radian",
+  "r.rterm.mac": "/home/mostafakm/.pyenv/shims/radian",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.commandsToSkipShell": [
+    "language-julia.interrupt"
+  ],
+  "julia.enableTelemetry": true,
+  "julia.execution.codeInREPL": true,
+  "julia.enableCrashReporter": true,
+  "julia.execution.resultType": "both",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportGeneralTypeIssues": "warning",
+    "reportPropertyTypeMismatch": "error"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+  "python.autoComplete.addBrackets": true,
+  "python.diagnostics.sourceMapsEnabled": true,
+  "python.formatting.provider": "black",
+  "workbench.editor.untitled.hint": "text",
+  "debug.inlineValues": true,
+  "footsteps.highlightColor": "rgb(116, 87, 136)",
+  "redhat.telemetry.enabled": false,
+  "sqltools.useNodeRuntime": true,
+  "python.insidersChannel": "weekly",
+  "julia.lint.missingrefs": "all",
+  "editor.definitionLinkOpensInPeek": true,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.showActiveTerminal": "singleTerminal",
+  "workbench.colorTheme": "myTheme",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "julia.symbolCacheDownload": true,
+  "editor.bracketPairColorization.enabled": true,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "r.plot.defaults.colorTheme": "vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
+  "jupyter.experimental.debugging": true,
+  "notebook.lineNumbers": "on",
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "cmd": "find . -type f -name '*.py[co]' -delete -o -type d -name __pycache__ -delete"
+      }
+    ]
+  },
+  "remote.downloadExtensionsLocally": true
+}
